@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #70A9FF;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*상단 부분*/
+
+#top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6vw;
+    background-color: #8D8D8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    line-height: 50px;
+    z-index: 4;
+
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 37vw;
+    /*border: 0.5vw solid #000;*/
+}
+.parent-image-container {
+    display: flex;
+    flex-direction: row;
+    /*border: 0.5vw solid #000;*/
+    width: 60vw;
+}
+.image-container, .menubar {
+    flex: 1;
+    /*border: 0.5vw solid #000;*/
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    /*align-items: center;*/
+    width: 30vw;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.menubar {
+    flex: 1;
+    width: 20vw;
+    /*border: 0.5vw solid #000;*/
+}
+
+
+
+
+
+
+/* 메뉴바 영역 */
+.menubar{
+    width: 17vw;
+    height: 35vw;
+    margin-left: 7vw;
+    margin-top: 6vw;
+    /*border: 20px solid #000;*/
+}
+
+#box1{
+    width: 15vw;
+    height: 9vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+    /*border: 20px solid #000;*/
+}
+
+#box2{
+    width: 15vw;
+    height: 9vw;
+    margin-left: 1vw;
+    margin-bottom: 1.5vw;
+    border-radius: 1vw;
+    background-image: url('img/Group17.png');
+    background-size: cover;
+    background-position: center;
+    /*margin-top: 2vw;*/
+    /*border: 20px solid #000;*/
+}
+
+#box3{
+    width: 15vw;
+    height: 6vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    /*border: 20px solid #000;*/
+    
+}
+
+
+
+
+
+
+
+/*자바 관련 스타일링*/
+.dot {
+    width: 2vw;
+    height: 2vw;
+    /*border-radius: 50%;
+    background-color: yellow;*/
+    background-image: url('img/Star.png'); /* 이미지 경로를 적절히 수정하세요 */
+    background-size: cover;
+    position: absolute;
+  }
+
+
+
+/* 변화 자바 함수를 위한 스타일링*/
+
+p3{
+    font-size: 1vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 500;
+}
+
+#changecontainer{
+    width: 10vw;
+    height: 20vw;
+    margin-left: 7vw;
+}
+
+
+#changing-text{
+    width: 20vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 500;
+}
+
+#changing-text2{
+    width: 20vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 500;
+}
+#changing-text3{
+    width: 10vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 500;
+}
+#changing-text4{
+    width: 10vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 500;
+}
+
+#iii{
+    width: 20vw;
+    height: 40vw;
+    margin-left: 0vw;
+}
+
+
+#ii2{
+    width: 2.5vw;
+    margin-top: 1vw;
+}
+
+
+
+
+
+
+/*.star {
+    height: 7px;
+    width: 7px;
+    background-color: yellow;
+    position: absolute;
+}*/
+
+
+
+

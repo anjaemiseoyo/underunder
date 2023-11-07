@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>밑 이미지 빼기</title>
+</head>
+
+
+<body>
+    <div id="top">
+        <div id="tittle"><h1>밑에서 바라보기 Looking form the bottom 밑으로 보기</h1></div>
+    </div>
+    
+    <div class="container" onmousemove="createDot(event)">
+        <div class="parent-image-container" onmousemove="createStar(event)">
+            <div class="image-container">
+                <div id="iii">
+                    <img id="changing-image" src="img/deskf.jpeg" style="width:100%;" />
+                </div>
+                <div id="ii2">
+                    <img id="changing-image2" src="img/num1.png" style="width:100%;" />
+                </div>
+                <div class="moveitem" onmousemove="moveImage(event)">
+                    <div id="changing-text"><p3>매일 사용하는 시디과 실기실의 테이블. 테이블 밑은 어떻게 생겼을지 갑자기 궁금했다. 수업이 끝나고 바닥에 드러누워 이미지를 담고자 했으나 초광각으로도 책상의 전체적인 이미지를 담지 못했다. 고안해낸 방법은 파노라마 이미지로 찍기 혹은 비디오로 전체 부분 녹화하기. 다만 비디오를 업로드 하는데에는 어려움이 있어 파노라마 사진을 올린다.</p3></div>
+                </div>
+            </div>
+            <div class="image-container">
+                <div id="iii">
+                    <img id="changing-image3" src="img/deskb.jpeg" style="width:100%;" />
+                </div>
+                <div id="ii2">
+                    <img id="changing-image4" src="img/num1.png" style="width:100%;" />
+                </div>
+                <div class="moveitem" onmousemove="moveImage(event)">
+                    <div id="changing-text2"><p3>파노라마로 이미지를 담는 과정은 조금 웃겼다. 책상 밑 부분에는 가로로 된 긴 철이 있었는데 덕분에 손을 바닥에 뻗어가면서 파노라마 촬영을 했다. 책상이 생각보다 긴 탓에 핸드폰을 잡고 움직임 없이 최대한 수평으로 움직여야 했다. 힘겹게 바닥을 기어다닌 덕에 겨우 이미지를 얻을 수 있었다. 맘에 드는 이미지는 아니지만 덕분에 실제로 밑바닥 인생을 경험한 것 같다.</p3></div>
+                </div>
+            </div>
+        </div>
+        <div class="menubar">
+            <div id="box1"><a href="../index.html"><img src="img/Group18.png" width="100%"></a></div>
+            <div id="box2"><a href="../archive/index.html"><img src="img/Group17.png" width="100%"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

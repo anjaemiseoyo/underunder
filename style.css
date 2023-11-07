@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B6B4E9;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+
+
+/* Webkit 기반 브라우저(예: Chrome, Safari)용 스크롤 바를 숨깁니다 */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.text {
+    position: absolute;
+    color: black;
+    pointer-events: none;
+  }
+
+/*font-family: 'Bebas Neue', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;*/
+
+.middlemouse {
+            width: 300px;
+            height: 300px;
+            /*border: 1px solid black;*/
+        }
+
+/*.hide-scrollbar ::-webkit-scrollbar {
+    display: none;
+  }*/
+
+.element-class {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    ::-webkit-scrollbar {
+      display: none;  /* Chrome, Safari, and Opera */
+    }
+}
+
+#follower {
+    position: absolute;
+    width: 10vw;
+    /*height: 20vw;*/
+
+    /*background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;*/
+    z-index: 100;
+  }
+
+
+#top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6vw;
+    background-color: #8D8D8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    line-height: 50px;
+    z-index: 4;
+
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+
+#middle{
+    width: 100vw;
+    height: 35vw;
+    margin-top: 3vw;
+    z-index: 1;
+
+}
+
+
+
+
+
+
+
+#middlet{
+    width: 100vw;
+    height: 5vw;
+    /*border: 20px solid #000;*/
+    display: flex;
+    margin-top: 9vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.middlemouse{
+    width: 90vw;
+    height: 40vw;
+    margin-left: 5vw;
+    /*border: #000 2px solid;*/
+    /*border: 20px solid #000;*/
+
+    display: flex;
+
+}
+
+.moveitem{
+    width: 15vw;
+    height: 40vh;
+    /*border: 2px solid #000;*/
+
+}
+
+.item {
+    width: 38vw;
+    flex: 1; /* 두 개의 div가 동등한 너비를 갖도록 합니다. */
+    /*border: 10px solid black; /* 테두리를 추가합니다. */
+    padding: 10px; /* 각 요소 주위에 여백을 추가합니다. */
+    padding-left: 1vw;
+    overflow: auto; /* 내용이 넘칠 경우 스크롤바를 추가합니다. */
+    max-height: 60vw; /* 최대 높이를 지정하여 스크롤바가 나타날 수 있도록 합니다. */
+
+}
+
+
+
+#infobox{
+    width: 12vw;
+    height: 3vw;
+    /*background-color:#D9D9D9;*/
+    border-radius: 1.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.span{
+    width: 100%;
+    height: 2vw;
+
+}
+
+h2{
+    font-size: 1.2vw;
+    font-weight: 500;
+    /*text-align: center;*/
+    color: #000;
+    margin-top: 0.1vw;
+}
+
+h3{
+    font-size: 25rem;
+    font-weight: 500;
+    /*text-align: center;*/
+    color: #8D8D8D;
+}
+
+.column.first {
+    width: 20vw;
+    height: 200vw;
+
+}
+
+.column.second {
+    width: 30%;
+
+}
+
+#photobox{
+    width: 17vw;
+    /*border: 20px solid #000;*/
+    margin-left: 0vw;
+}
+
+
+
+.menubar{
+    width: 17vw;
+    height: 35vw;
+    margin-left: 1vw;
+    /*border: 20px solid #000;*/
+}
+
+#box1{
+    width: 15vw;
+    height: 9vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+    /*border: 20px solid #000;*/
+}
+
+#box2{
+    width: 15vw;
+    height: 9vw;
+    margin-left: 1vw;
+    margin-bottom: 1.5vw;
+    border-radius: 1vw;
+    background-image: url('img/Group 15.png');
+    background-size: cover;
+    background-position: center;
+    /*margin-top: 2vw;*/
+    /*border: 20px solid #000;*/
+}
+
+#box3{
+    width: 15vw;
+    height: 6vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    /*border: 20px solid #000;*/
+    
+}
+
+
+
+
+
+
+.plant-image {
+ 
+    position: absolute;
+    width: 10vw;
+}
+
+
+h4{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    font-size: 0.9vw;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.003vw; /* 글자 사이 간격을 2px로 설정합니다. */
+    line-height: 1.7;
+}
+
+p1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    font-size: 1vw;
+    color: #424242;
+    font-weight: 600;
+    letter-spacing: 0.0000005vw; /* 글자 사이 간격을 2px로 설정합니다. */
+    line-height: 1.5;
+}
+
+p2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    margin-bottom: 2vw;
+    font-size: 0.7vw;
+    color: #424242;
+    font-weight: 600;
+    letter-spacing: 0.0000005vw; /* 글자 사이 간격을 2px로 설정합니다. */
+    line-height: 1.5;
+}
+.text-indent {
+    text-indent: 1vw;
+}
+
+
+#changecontainer{
+    width: 10vw;
+    height: 20vw;
+}
+
+
+#changing-text{
+    width: 15vw;
+    letter-spacing: 0.2px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 2vw; /* 행간을 조정합니다. */
+    font-weight: 400;
+}
+#changing-text2{
+    width: 10vw;
+    letter-spacing: 1px; /* 원하는 만큼 자간을 조정합니다. */
+    line-height: 1.5vw; /* 행간을 조정합니다. */
+}
+#changing-text3{
+    width: 10vw;
+}
+#changing-text4{
+    width: 10vw;
+    font-weight: bold;
+}
+
+#image-container{
+    width: 10vw;
+    height: 20%;
+}
+
+
+h9{
+    font-size: 1.3vw;
+    font-weight: 500;
+    /*text-align: center;*/
+    color: #000;
+    margin-top: 0.1vw;
+    letter-spacing: 0.002vw;
+}
+
+
+
+
+
